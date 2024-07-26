@@ -1,4 +1,4 @@
-def getIslands(grid):
+def getTotalIslands(grid):
     def dfs(row, col):
         if row < 0 or row >= len(grid) or col < 0 or col >= len(grid[0]) or grid[row][col] == 'W':
             return
