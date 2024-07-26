@@ -30,5 +30,5 @@ map2 = [
     ["W", "W", "W", "L", "L"],
 ]
 
-print("Number of distinct islands in map 1:", numDistinctIslands(map1)) 
+print("Number of distinct islands in map 1:", getTotalIsles(map1)) 
 print("Number of distinct islands in map 2:", numDistinctIslands(map2))  
